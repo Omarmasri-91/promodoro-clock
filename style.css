@@ -1,0 +1,58 @@
+body {
+    font-weight: 900;
+    color: white;
+    background: rgb(48, 48, 48);
+}
+#header{
+    font-size: 50px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+#container {
+    width: min-content;
+    margin: auto;   
+}
+#display {  
+    height: 100px;
+    margin: 10px;
+    border: black 1px solid;
+    background: black;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr; 
+    grid-template-rows: 40px 40px;
+}
+#timer, #duration, #breakduration {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 40px;
+}
+h5 {
+    text-align: center;
+    text-emphasis: wrap;
+    
+}
+#buttons {
+    display: flex;
+    margin: 10px;
+    background: black;
+}
+#controls{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);   
+}
+#increase, #decrease {
+    color: yellowgreen;
+}
+#decreasebreak, #increasebreak{
+    color: orangered;
+}
+button {
+    width: 60px;
+    height: min-content;
+    border-radius: 5px;
+    border-color: black;
+    margin: 10px;
+    font-size: 25px;
+    color: white;
+    background: black;
+}
